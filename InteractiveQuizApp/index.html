@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Quiz App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="Quiz-container">
+            <h1>Quiz App</h1>
+            <p id="Question">What is the capital for France?</p>
+            <form id="quiz-form">
+                <input type="radio" id="paris" name="answer" value="Paris">
+                <label for="paris">Paris</label><br>
+
+                <input type="radio" id="london" name="answer" value="London">
+                <label for="london">London</label><br>
+
+                <input type="radio" id="rome" name="answer" value="Rome">
+                <label for="rome">Rome</label><br>
+
+                <input type="radio" id="madrid" name="answer" value="Madrid">
+                <label for="madrid">Madrid</label><br>
+
+                <button type="button" id="submit">Submit</button>
+
+                </form>
+                <p id="result"></p>
+                </div>
+                <script src="script.js"></script>
+    </body>
+</html>
